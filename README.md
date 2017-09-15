@@ -2,5 +2,14 @@
 Saves a list of all links on a particular URL. 
 
 ```
-$ node get-links http://www.reddit.com links.txt
+// change database file location
+const db = low('data/urls.json')
 ```
+
+```
+$ npm i
+$ node index.js
+$ node googleCrawler.js  
+$ node screenshot.js
+```
+
