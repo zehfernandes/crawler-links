@@ -12,12 +12,11 @@ const excludeDomains = (href) => {
 	return href.includes('facebook.com') ||
 		href.includes('google.com') ||
 		href.includes('twitter.com') ||
-		href.includes('linkedin.com') ||
-		href.includes('ri.santander.com.br') ? false : href
+		href.includes('linkedin.com') ? false : href
 }
 
 const checkDomain = (href) => {
-	return !href.includes('easynvest.com.br') ? false : href
+	return !href.includes('domain.com.br') ? false : href
 }
 
 const noHttpOrHttps = (href) => {
